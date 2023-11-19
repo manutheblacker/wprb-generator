@@ -15,9 +15,8 @@ import ga4Track from '@/lib/ga4'
 const tmpFolder = '/tmp'
 const downloadPath = path.join(tmpFolder, 'master.zip')
 const extractPath = path.join(tmpFolder, 'source')
-const remoteGithubMaster =
-  'https://github.com/DevinVinson/WordPress-Plugin-Boilerplate/archive/refs/heads/master.zip'
-const repoName = 'WordPress-Plugin-Boilerplate-master'
+const remoteGithubMaster =  'https://github.com/homescriptone/WordPress-Plugin-React-Boilerplate/archive/refs/heads/master.zip'
+const repoName = 'WordPress-Plugin-React-Boilerplate-master'
 
 let destination
 let zipName
