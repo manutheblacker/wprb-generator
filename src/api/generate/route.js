@@ -18,8 +18,8 @@ const extractPath = path.join(tmpFolder, 'source')
 const remoteGithubMaster =  'https://github.com/homescriptone/WordPress-Plugin-React-Boilerplate/archive/refs/heads/master.zip'
 const repoName = 'WordPress-Plugin-React-Boilerplate-master'
 
-let destination
-let zipName
+let destination;
+let zipName;
 
 export async function POST(request) {
   // Delete all in the extract path folder
