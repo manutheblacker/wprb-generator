@@ -47,7 +47,7 @@ export function PluginPreview(props) {
       {props.showBuyMeACoffe && (
         <div className="relative mt-10 flex justify-center">
           <Link
-            href="https://www.buymeacoffee.com/tmeister"
+            href="https://www.buymeacoffee.com/manutheblvcker"
             rel="noopener noreferrer"
             target="_blank"
           >

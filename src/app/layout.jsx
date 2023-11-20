@@ -7,12 +7,12 @@ import GoogleAnalytics from '@/app/google-analytics'
 
 export const metadata = {
   title: {
-    template: '%s - WordPress Plugin Boilerplate',
+    template: '%s - WordPress React Boilerplate',
     default:
-      'WordPress Plugin Boilerplate | A Foundation for Building High-Quality WordPress Plugins',
+      'WordPress React Boilerplate | A Foundation for Building High-Quality WordPress Plugins based on React',
   },
   description:
-    'WordPress Plugin Boilerplate Generator, Stop wasting time searching and replacing text strings manually',
+    'WordPress React Boilerplate Generator, Stop wasting time searching and replacing text strings manually',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

@@ -4,29 +4,13 @@ import logoX from '@/images/logos/x.svg'
 import logoGithub from '@/images/logos/github.svg'
 import logoLinkedin from '@/images/logos/linkedin.svg'
 import logoWordPress from '@/images/logos/wordpress.svg'
-import logo76 from '@/images/logos/76.svg'
+import homescriptone from '@/images/logos/homescriptone.png'
+import medium_logo from '@/images/logos/medium.png'
 
-import { Newsletter } from '@/components/Newsletter'
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { formatDate } from '@/lib/formatDate'
 import { Hero } from '@/components/Hero'
 import { GlobeAltIcon, EnvelopeIcon } from '@heroicons/react/24/outline'
 
-// function Article({ article }) {
-//   return (
-//     <Card as="article">
-//       <Card.Title href={`/articles/${article.slug}`}>
-//         {article.title}
-//       </Card.Title>
-//       <Card.Eyebrow as="time" dateTime={article.date} decorate>
-//         {formatDate(article.date)}
-//       </Card.Eyebrow>
-//       <Card.Description>{article.description}</Card.Description>
-//       <Card.Cta>Read article</Card.Cta>
-//     </Card>
-//   )
-// }
 
 function Role({ role }) {
   return (
@@ -61,28 +45,33 @@ function Social() {
   let networks = [
     {
       name: 'Github',
-      title: 'https://github.com/tmeister',
+      title: 'https://github.com/manutheblacker',
       logo: logoGithub,
     },
     {
       name: 'X (Twitter)',
-      title: 'https://x.com/tmeister',
+      title: 'https://x.com/manutheblacker',
       logo: logoX,
     },
     {
       name: 'WordPress',
-      title: 'https://profiles.wordpress.org/tmeister/',
+      title: 'https://profiles.wordpress.org/manucastle78/',
       logo: logoWordPress,
     },
     {
       name: 'LinkedIn',
-      title: 'https://www.linkedin.com/in/enrique-chavez',
+      title: 'https://www.linkedin.com/in/emmanuel-adekplovi',
       logo: logoLinkedin,
     },
     {
-      name: '76 Digital',
-      title: 'https://76.digital',
-      logo: logo76,
+      name: 'Medium',
+      title: 'https://manutheblacker.medium.com',
+      logo: medium_logo,
+    },
+    {
+      name: 'Homescriptone Solutions',
+      title: 'https://homescriptone.com',
+      logo: homescriptone,
     },
   ]
 
@@ -109,13 +98,9 @@ export default async function Home() {
         <div className="max-w-7xl mt-20">
           <Hero />
         </div>
-      </Container>
-      <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Social />
-          </div>
+
+        <div className="max-w-7xl mt-20">
+          <Social />
         </div>
       </Container>
     </>
