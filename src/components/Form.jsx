@@ -53,7 +53,8 @@ export default function Form(props) {
     const response = await fetch('/api/generate', {
       method: 'POST',
       body: JSON.stringify(data),
-    })
+    });
+    console.log(response)
     const blob = await response.blob()
     // Hacky wat to force the download
     const a = document.createElement('a')
